@@ -1,0 +1,5 @@
+{
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.formatOnSave": true,
+    "editor.codeActions.triggerOnFocusChange": true
+}
