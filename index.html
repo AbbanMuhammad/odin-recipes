@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <title>Odin Recipes</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background-color: purple;
+        text-align: center;
+      }
+
+      h1 {
+        color: #fff;
+      }
+
+      a:hover {
+        color: rgb(158, 16, 11);
+        background-color: rgb(94, 238, 238);
+      }
+
+
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+      }
+
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+
+      a {
+        display: block;
+        padding: 8px;
+        background-color: #222;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer {
+        color: #fff;
+        padding: 90px;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="lasagna.html">Lasagna</a></li>
-      <li><a href="pumpkinPancake.html">Pumpkin Pancake</a></li>
-      <li><a href="friedChicken.html">Fried Chicken</a></li>
-    </ul>
+    <div>
+      <header>
+        <h1>Odin Recipes</h1>
+        <nav>
+          <ul>
+            <li><a href="lasagna.html">Lasagna</a></li>
+            <li><a href="pumpkinPancake.html">Pumpkin Pancake</a></li>
+            <li><a href="friedChicken.html">Fried Chicken</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <footer>
+      <div>
+        <p>&copy; 2025 Ordin Recipes. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
+
 </html>
